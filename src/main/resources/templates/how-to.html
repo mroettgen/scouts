@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified PopperJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Cookie-Zeug -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+    <script src="/javascript/firebase.js" type="text/javascript"></script>
+    <!-- Custom JS -->
+    <script src="/javascript/story.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/css/admin.css">
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark justify-content-between">
+        <a class="navbar-brand" href="#">Scouts</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/home/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/">Admin area</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/stats/">Analytics
+
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">How to write an engaging story
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Nav bar ends here -->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h1 class="scout">How to write an engaging story</h1>
+                <p>The story is a core component of the app and needs to be equally compelling and informative. It should give
+                    a good introduction to a topic of choice, e.g., </p>
+                <ul>
+                    <li>
+                        <strong>History: </strong>Make students relive historical situations, or teach them about important events
+                        from an immersive perspective</li>
+                    <li>
+                        <strong>Ethics: </strong>Pose ethical dilemmas to your students and discuss the results in class</li>
+                    <li>
+                        <strong>Economics: </strong>Write a branching story that shows students how certain decisions, such as raising
+                        the base interest rate, affects daily live</li>
+                </ul>
+                <p>From our own personal experience, we derived a 6-step guide on how to write an engaging story:</p>
+                <ol>
+                    <li>
+                        <strong>Don't give too much thought about an overly specific topic.</strong> It is easier to embed your story
+                        in one big background, such as World War I, instead of, for example, the Yalta Conference.</li>
+                    <li>
+                        <strong>Make clear in advance which facts you want to convey.</strong> Resources like
+                        <a href="http://www.dhm.de/lemo/">Lemo</a>,
+                        <a href="http://www.bpb.de/">bpb</a> or
+                        <a href="www.wikipedia.de">Wikipedia</a> can help you to get an initial overview. Don't overdo it with the facts, your story
+                        shouldn't be a mere list of historical events in the end </li>
+                    <li>
+                        <strong>Think of a framing storyline.</strong> It's best to divide the story into acts or scenes, and arrange
+                        them into an arc of tension. Be inspired by things you've read, heard or seen lately. TV series in
+                        particular have mastered the art of keeping up tension.</li>
+                    <li>
+                        <strong>Add your facts from your earlier research to the scenes and think about which emotions fit.</strong>
+                        Write a short exposé for each scene. This helps you to visualize the plotline. If you have a partner, ask him or her to help
+                        you write the dialogues. A conversation can be better conceived in pairs if different roles can be
+                        assumed. Dialogue is not a must, though. You can write everything from a ferst person-view and describe
+                        the thought world of the protagonist.</li>
+                    <li>
+                        <strong>If you have multiple scenes with a stringent story, you can think about how to build different story
+                            branches.
+                        </strong> Paint the story as a tree of decisions to keep track of the story (and help you connecting
+                        them later in the interface). Limit yourself to two options per story block, otherwise, the tree
+                        branches too far out and it's hard to keep track of the different paths. Let the different options
+                        end up int he same end again. This way you can ensure that everyone has the same information at the
+                        end. With more preparation time you can also build sophisticated branched story</li>
+                    <li>
+                        <strong>Read everything again at the end and be honest with yourself if you enjoy following the story.</strong>
+                    </li>
+                </ol>
+                <p>Don't be afraid to ask for help. Not everyone is born a Hemingway, but as a teacher you should learn something
+                    new every day. If you need a primer to get started on writing, read this
+                    <a href="https://www.theguardian.com/books/2010/feb/20/ten-rules-for-writing-fiction-part-one">article from The Guardian</a>, which gives tips to aspiring writers. Also, if you should take a liking
+                    to writing fiction, take a look at Stephen King's
+                    <a href="http://www.openculture.com/2014/03/stephen-kings-top-20-rules-for-writers.html">Twenty Rules for Writers</a>—he didn't become the Master of Suspense for nothing.
+                    <br> One more tip: creating a new story block whenever you usually want to create a new paragraph makes your
+                    story more immersive. Just create a block where both reactions lead to the same next ID – boom! An illusion
+                    of choice is created.</p>
+                <h2 class="scout">Further resources</h2>
+                <p>Here are some more resources for all your writing needs:</p>
+                <h3 class="scout">Photos and pictures</h3>
+                <ul>
+                    <li>
+                        <strong>
+                            <a href="www.pexels.com">Pexels</a>
+                        </strong> is an excellent resource for CC0-licensed pictures which you are free to use in any way you like</li>
+                    <li>
+                        <strong>
+                            <a href="www.thestocks.im">TheStocks</a>
+                        </strong> is a page where you can find a myriad of photos, graphics and illustrations. Not all of them are
+                        CC0, though, so be sure to check the license!</li>
+                </ul>
+                <h3 class="scout">Writing and planning</h3>
+                <ul>
+                    <li>
+                        <strong>
+                            <a href="https://www.amazon.de/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548">On Writing Well</a>
+                        </strong> is a great book which guides you not only through the process of writing, but also through research
+                        for your texts</li>
+                    <li>
+                        <strong>
+                            <a href="https://www.amazon.de/Writing-Memoir-Craft-Stephen-King/dp/1439156816">Stephen King's A Memoir of the Craft</a>
+                        </strong> is a great read and full of tips on how to improve your writing style</li>
+                    <li>
+                        <strong>
+                            <a href="https://www.draw.io/">Draw.io</a>
+                        </strong> is a tool which helps you to create flow charts, so you won't lose track of your story. We personally
+                        prefer pen and paper, but maybe a software might be the better approach of you're constantly changing
+                        the names of your blocks</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</body>
