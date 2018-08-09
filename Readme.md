@@ -10,7 +10,7 @@ This is a project that originated in a class on eLearning on RWTH-Aachen Univers
 * run `mvn clean install`
 * start with `java -jar .\target\scouts.0.0.1-SNAPSHOT`
 
-## How to run from withing Eclipse
+## How to run from within Eclipse
 * install and configure Spring Tools, Lombok and Maven
 * update Maven Sources
 * run as Spring Boot App
